@@ -12,3 +12,5 @@ Enter-PSSession -ComputerName 10.10.10.5 -Credential admin
 
 # SMB-mounted share access
 smbclient //10.10.10.5/share -U 'user' -c 'ls'
+
+
