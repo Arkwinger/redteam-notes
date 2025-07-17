@@ -1,5 +1,5 @@
 
-# tried this, didn't get root, but found temp dir with juicy perms 
+# tried this, didn't get root, but found temp dir with juicy perms  
 `find / -perm -u=s -type f 2>/dev/null
 `
 # looked promising, but just opened a text file?
